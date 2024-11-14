@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.img_logo-container {
+    width: 120px;
+    height: 100%;
+}
+
+
+.header_nav {
+    display: flex;
+}
+
+.header_nav-list {
+    height: 60px;
+    width: 790px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav_list-a {
+    color: #121212;
+    font-size: 14px;
+}
+
+.nav_list-a:hover {
+    transition: width 0.5s ease; 
+    text-decoration: underline;
+    
+}
+
+/* HERO SECTION */
+.hero {
+    height: calc(100vh - 54px - 40px);
+    display: flex;
+    justify-content: center;
+}
+
+.hero_info {
+    text-align: center;
+    padding-right: 20px;
+}
+
+.hero_info-text {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+/* CONTAINER IMAGEN */
+.hero_img-container {
+    height: calc(100vh - 54px - 40px);
+    padding-left: 20px;
+}
+
+.hero_img {
+    height: 100%;
+    width: 410px;
+}
+
+.hero_info-img {
+    width: 200px;
+    height: 146px;
+}
+
+
+/* BOTON PARA IR A YOUTUBE */
+
+.btn_youtube {
+    background: #121212;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn_youtube-link {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
